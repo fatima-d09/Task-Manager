@@ -25,9 +25,53 @@ TaskManager/
 
 # Installation
 
-# Prerequisites
+## Prerequisites
 - Python 3.x
 - Flask
 
 ## Setup
+1. Clone the Repository
 
+'''
+git clone https://github.com/yourusername/task-manager.git
+cd task-manager
+'''
+
+2. Create a virtual environment and activate it
+
+'''
+python3 -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+'''
+
+3. Install Flask
+
+'''
+pip3 install Flask
+'''
+
+4. Run the Flask Application
+
+'''
+python3 app.py
+'''
+
+5. Open your browser to navigate the Task Manager
+
+(My link: http://127.0.0.1:5000/)
+
+# Usage
+
+## Task Management
+- Add Task: Enter the task name and select its priority (High, Medium, Low). Click "Add Task".
+- Complete Task: Click the "Complete" button next to the task to mark it as completed.
+- Remove Task: Click the "Remove" button next to the task to delete it from the list.
+- View Tasks: Tasks are categorized into Incomplete and Completed sections.
+
+## Goals
+- Add Goal: Enter your goal in the input field and click "Add Goal".
+- View Goals: Added goals are displayed in the Goals section.
+
+## Miscellaneous Things
+- Add Miscellaneous Thing: Enter your note or reminder in the input field and click "Add Miscellaneous".
+- View Miscellaneous Things: Added notes and reminders are displayed in the Miscellaneous section.
