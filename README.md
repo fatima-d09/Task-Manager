@@ -12,7 +12,7 @@ This is a simple web-based Task Manager application built with HTML, CSS, JavaSc
 TaskManager/<br>
 ├── app.py<br>
 ├── templates/<br>
-│   └── index.html<br>
+   └── index.html<br>
 └── static/<br>
     ├── styles.css<br>
     └── script.js<br>
