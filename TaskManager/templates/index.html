@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1 class="tit">≧◉◡◉≦</h1>
+    <div class="container">
+        <div class="task-manager">
+            <h1>Task Manager</h1>
+            <form id="task-form">
+                <input type="text" id="task-name" placeholder="Enter task name" required>
+                <select id="task-priority">
+                    <option value="High">High</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Low">Low</option>
+                </select>
+                <button type="submit">Add Task</button>
+            </form>
+            <h2>Incomplete Tasks</h2>
+            <ul id="incomplete-tasks"></ul>
+            <h2>Completed Tasks</h2>
+            <ul id="completed-tasks"></ul>
+
+            <h1>Goals</h1>
+            <form id="goal-form">
+                <input type="text" id="goal-name" placeholder="Enter goal" required>
+                <button type="submit">Add Goal</button>
+            </form>
+            <ul id="goals"></ul>
+        </div>
+        <div class="affirmation-container">
+            <h1>Miscellaneous Stuff...</h1>
+            <form id="affirmation-form">
+                <input type="text" id="affirmation" placeholder="Enter affirmation" required>
+                <button type="submit">Add Affirmation</button>
+            </form>
+            <ul id="affirmations"></ul>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
