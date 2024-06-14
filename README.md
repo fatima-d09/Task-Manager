@@ -9,13 +9,13 @@ This is a simple web-based Task Manager application built with HTML, CSS, JavaSc
 - <strong>Miscellaneous:</strong> Add and view miscellaneous things for quick notes or reminders.
 
 # Project Structure
-TaskManager/
-├── app.py
-├── templates/
-│   └── index.html
-└── static/
-    ├── styles.css
-    └── script.js
+TaskManager/<br>
+├── app.py<br>
+├── templates/<br>
+│   └── index.html<br>
+└── static/<br>
+    ├── styles.css<br>
+    └── script.js<br>
 
 # Files and Directories
 - <strong>app.py: </strong>The Flask application that handles the backend logic.
